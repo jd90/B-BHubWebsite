@@ -171,11 +171,11 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td>
 
 
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <td id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -208,7 +208,7 @@ try{
         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
             <span class="sr-only"><img src="img/next3.png"></span>
         </a>
-    </div>
+
 
 
 
