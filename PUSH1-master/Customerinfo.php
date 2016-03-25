@@ -268,7 +268,7 @@ catch(PDOException $e)
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>Select a Room...</p>
+        <p>Please select a Room...</p>
     </div>
 </section>
 
