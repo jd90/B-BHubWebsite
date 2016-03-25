@@ -421,7 +421,7 @@ catch(PDOException $e)
                 <td><input type="text" class="inputform" id="city" name="city" placeholder="Enter City Name" size="20" maxlength="20" required /></td>
 
 
-            </>
+            </tr><tr>
             <td>
                 <label for="telephone">Telephone: *</label></td>
             <td><input type="text" id="telephone" class="inputform" name="telephone" placeholder="Enter your telephone number" size="20" maxlength="20" required /></td>
