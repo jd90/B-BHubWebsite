@@ -318,17 +318,41 @@ NEWHTML;
                     </form></td>
             </tr>
             <tr>
-                <td>Dundee</td>
-                <td>Newcastle</td>
-                <td>Liverpool</td>
-                <td>Leeds</td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='dundee'>
+                        <button class="btnclear" type="submit" >Dundee</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='newcastle'>
+                        <button class="btnclear" type="submit" >Newcastle</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='liverpool'>
+                        <button class="btnclear" type="submit" >Liverpool</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='leeds'>
+                        <button class="btnclear" type="submit" >Leeds</button>
+                    </form></td>
 
             </tr>
             <tr>
-                <td>Manchester</td>
-                <td>Chester</td>
-                <td>York</td>
-                <td>Bristol</td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='manchester'>
+                        <button class="btnclear" type="submit" >Manchester</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='chester'>
+                        <button class="btnclear" type="submit" >Chester</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='york'>
+                        <button class="btnclear" type="submit" >York</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='bristol'>
+                        <button class="btnclear" type="submit" >Bristol</button>
+                    </form></td>
 
 
             </tr>
