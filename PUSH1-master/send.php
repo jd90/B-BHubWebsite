@@ -33,8 +33,8 @@ $mail->Body = 'Booking Reference: '.$bookingid."\n"
     .'Room Name :'.$roomname."\n"
     .'Booking Dates: '.$bookingstartdate.' - '.$bookingenddate."\n"
     .'Check-in: '.$checkin."\n"
-    .'check-out: '.$checkout."\n"
-    .'cost: '.$cost."\n"
+    .'Check-out: '.$checkout."\n"
+    .'Cost (excl VAT): '.$cost."\n"
     .'Customer Name: '.$title.' '.$firstname.' '.$surname."\n"
     .'Customer Email: '.$email."\n"
     .'Customer Telephone: '.$telephone."\n";
@@ -46,10 +46,12 @@ if (!$mail->send()) {
     echo "Welcome to the Booking Confirmation Page!!!<p>";
     echo "A confirmation email has been sent!<p>";
     echo "Here are your Booking details...<p>";
+    echo "&nbsp;<p>";
+    echo "&nbsp;<p>";
     echo "Booking Reference: ".$bookingid."<p>";
     echo "B&B Name: ".$bbname."<p>";
     echo "Room Name :".$roomname."<p>";
-    echo "Booking Dates: ".$bookingstartdate." - ".$bookingenddate;
+    echo "Booking Dates: ".$bookingstartdate." - ".$bookingenddate."<p>";
     echo "Customer Name: ".$title." ".$firstname." ".$surname."<p>";
     echo "Customer Email: ".$email."<p>";
     echo "Customer Telephone: ".$telephone."<p>";
