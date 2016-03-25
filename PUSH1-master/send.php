@@ -42,8 +42,7 @@ $mail->Body = 'Booking Reference: '.$bookingid."\n"
     .'Customer Name: '.$title.' '.$firstname.' '.$surname."\n"
     .'Customer Email: '.$email."\n"
     .'Customer Telephone: '.$telephone."\n"
-    .'Customer Address: '.$address.', '.$address2."\n"
-    .$city.' '.$postcode."\n";
+    .'Customer Address: '.$address.', '.$address2.', '.$city.' '.$postcode."\n";
 //$mail->addAttachment('');
 
 if (!$mail->send()) {
