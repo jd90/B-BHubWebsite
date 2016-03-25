@@ -239,16 +239,7 @@ try{
 </tr>
 <tr>
 
-<td colspan="2"><p>
 
-<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
-<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
-<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
-<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
-<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
-<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
-
-<input class="btn3" type="submit" value="SELECT" class="submit" /></p></td>
 
 </tr>
 
