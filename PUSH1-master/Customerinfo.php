@@ -265,13 +265,18 @@ catch(PDOException $e)
 </section>
 
 
+<section class="container" id="featured">
+    <div class="centre">
+
+        <p>Select a Room...</p>
+    </div>
+</section>
 
 
 
 
 
-
-
+<section class="container" id="">
 
 <form action="send.php" method="post">
 
@@ -306,7 +311,7 @@ NEWHTML;
 </table>
 
 </form>
-
+</section>
 
 
 <section class="spacer" id="spacer">
@@ -334,10 +339,17 @@ NEWHTML;
         <table class="table6">
 
             <tr><td class="small"><p>* Required Fields</p></td></tr>
+
+            <!--
 <tr><td><label for ="room">Room *</label></td>
     <td><select class="inputform" name="room" id="room">
             <option value ="">Select Room</option>
+
+            -->
+
 <?php
+/*
+
 $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
@@ -354,10 +366,15 @@ NEWHTML;
 }
 catch(PDOException $e)
 {print"$e";}
+
+*/
+
 ?>
+
+  <!--
         </select>
             </td></tr>
-
+-->
 
             <tr><td>
                     <label for="title">Title: *</label></td>
