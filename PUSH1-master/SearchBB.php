@@ -298,7 +298,14 @@ NEWHTML;
 
         <table border="0" class="tablejava">
             <tr>
-                <td>Aberdeen</td>
+                <td>Aberdeen
+
+                    <form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='aberdeen'>
+                        <button class="btn" type="submit" >Search</button>
+                    </form>
+
+                </td>
                 <td>Edinburgh</td>
                 <td>London</td>
                 <td>Glasgow</td>
