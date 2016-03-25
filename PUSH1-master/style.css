@@ -664,3 +664,141 @@ div.panel.show {
 
     height: 200px;
 }
+
+
+
+
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid orange;
+    padding: 25px;
+    background-color: #f8f8ff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+.carousel{
+    position:relative
+}
+.carousel-inner{
+    position:relative;
+    width:100%;
+    overflow:hidden
+}
+.carousel-inner>.item{
+    position:relative;
+    display:none;
+    -webkit-transition:.6s ease-in-out left;
+    -o-transition:.6s ease-in-out left;
+    transition:.6s ease-in-out left
+}
+@media all and (transform-3d),(-webkit-transform-3d){
+    .carousel-inner>.item{
+        -webkit-transition:-webkit-transform .6s ease-in-out;-o-transition:-o-transform .6s ease-in-out;
+        transition:transform .6s ease-in-out;
+        -webkit-backface-visibility:hidden;
+        backface-visibility:hidden;
+    }
+    .carousel-inner>.item.active.right,.carousel-inner>.item.next{
+        left:0;
+        -webkit-transform:translate3d(100%,0,0);
+        transform:translate3d(100%,0,0)
+    }
+    .carousel-inner>.item.active.left,.carousel-inner>.item.prev{
+        left:0;
+        -webkit-transform:translate3d(-100%,0,0);
+        transform:translate3d(-100%,0,0)
+    }
+    .carousel-inner>.item.active,.carousel-inner>.item.next.left,.carousel-inner>.item.prev.right{
+        left:0;
+        -webkit-transform:translate3d(0,0,0);
+        transform:translate3d(0,0,0)}
+}
+.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{
+    display:block;
+}
+.carousel-inner>.active{
+    left:0
+}
+.carousel-inner>.next,.carousel-inner>.prev{
+    position:absolute;
+    top:0;
+    width:100%
+}
+.carousel-inner>.next{
+    left:100%
+}
+.carousel-inner>.prev{
+    left:-100%
+}
+.carousel-inner>.next.left,.carousel-inner>.prev.right{
+    left:0
+}
+.carousel-inner>.active.left{
+    left:-100%
+}
+.carousel-inner>.active.right{
+    left:100%
+}
+.carousel-control{
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    width:15%;
+    font-size:20px;
+    color: #ffffff;
+    text-align:center;
+    text-decoration: none;
+}
+.carousel-control.left{
+    left:0;
+    right:auto;
+}
+.carousel-control.right{
+    right:0;
+    left:auto;
+}
+.carousel-indicators{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    z-index:15;
+    width:60%;
+    padding-left:0;
+    margin-left:-30%;
+    text-align:center;
+    list-style:none
+}
+.carousel-indicators li{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    margin:1px;
+    cursor:pointer;
+    border:1px solid #fff;
+    border-radius:10px
+}
+.carousel-indicators .active{
+    width:12px;
+    height:12px;
+    margin:0;
+    background-color:#fff
+}
+
+/*# sourceMappingURL=bootstrap.min.css.map */
