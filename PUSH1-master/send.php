@@ -14,6 +14,10 @@ $bookingenddate = $_POST['bookingenddate'];
 $checkin = $_POST['checkin'];
 $checkout = $_POST['checkout'];
 $cost = $_POST['cost'];
+$address = $_POST['address'];
+$address2 = $_POST['address2'];
+$city = $_POST['city'];
+$postcode = $_POST['postcode'];
 
 require 'PHPMailerAutoload.php';
 $mail = new PHPMailer;
@@ -37,7 +41,9 @@ $mail->Body = 'Booking Reference: '.$bookingid."\n"
     .'Cost (excl VAT): '.$cost."\n"
     .'Customer Name: '.$title.' '.$firstname.' '.$surname."\n"
     .'Customer Email: '.$email."\n"
-    .'Customer Telephone: '.$telephone."\n";
+    .'Customer Telephone: '.$telephone."\n"
+    .'Customer Address: '.$address.', '.$address2."\n"
+    .$city.' '.$postcode."\n";
 //$mail->addAttachment('');
 
 if (!$mail->send()) {
@@ -52,10 +58,18 @@ if (!$mail->send()) {
     echo "B&B Name: ".$bbname."<p>";
     echo "Room Name :".$roomname."<p>";
     echo "Booking Dates: ".$bookingstartdate." - ".$bookingenddate."<p>";
+    echo "Check-in: ".$checkin."<p>";
+    echo "Check-out: ".$checkout."<p>";
+    echo "Cost (excl VAT): ".$cost."<p>";
     echo "Customer Name: ".$title." ".$firstname." ".$surname."<p>";
     echo "Customer Email: ".$email."<p>";
     echo "Customer Telephone: ".$telephone."<p>";
-    echo "<a href='customerinfo.php'>Return to the Booking Page</a>";
+    echo "Customer Address: ".$address.", ".$address2."<p>";
+    echo "City: ".$city."<p>";
+    echo "Postcode: ".$postcode."<p>";
+    echo "&nbsp;<p>";
+    echo "&nbsp;<p>";
+    echo "<a href='SearchBB.php'>Return to the Search Page</a>";
 }
 
 ?>

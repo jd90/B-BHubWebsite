@@ -434,7 +434,7 @@ catch(PDOException $e)
 
 
             <tr hidden><td>
-                    <label for="owneremail">Owner Email:</label></td>
+                    <label for="bbemail">B&B Email:</label></td>
                 <td>
                         <?php
                         $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
