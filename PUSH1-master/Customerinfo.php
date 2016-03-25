@@ -275,7 +275,7 @@ catch(PDOException $e)
 
 <section class="container" id="content2">
 
-    <form>
+    <form action="send.php" method="post">
 
         <table class="table6">
 

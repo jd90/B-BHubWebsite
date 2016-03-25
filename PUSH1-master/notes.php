@@ -1,10 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1418146
- * Date: 17/03/2016
- * Time: 13:51
- */
+
 
 
 
@@ -26,4 +20,3 @@ WHERE ([Bookings].bookingstartdate < '2016/07/20' AND [Bookings].bookingenddate 
 
 
 
-?>
