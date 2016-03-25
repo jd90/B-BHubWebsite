@@ -191,15 +191,15 @@ try{
 
             <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="push1-master/assets/glasgow.jpg" width="460" height="345">
+                <img src="assets/glasgow.jpg" width="460" height="345">
             </div>
 
             <div class="item">
-                <img src="push1-master/assets/london.jpg" width="460" height="345">
+                <img src="assets/london.jpg" width="460" height="345">
             </div>
 
             <div class="item">
-                <img src="push1-master/assets/manchester.jpg" width="460" height="345">
+                <img src="assets/manchester.jpg" width="460" height="345">
             </div>
 
             <div class="item">
