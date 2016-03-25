@@ -366,7 +366,7 @@ NEWHTML;
 <div class="tabContent" id="areas">
 
     <div>
-        <p>Looking for a B&B in a Area of the UK but not sure where to stay? Find all B&B's by Area...</p>
+        <p>Looking for a B&B in a Area of the UK but not sure where to stay? Find all B&B's by Area...**PLEASE NOTE: THIS FUNCTIONALITY IS NOT COMPLETE AT THIS TIME**</p>
         <p>
 
         <table border="0" class="tablejava">
