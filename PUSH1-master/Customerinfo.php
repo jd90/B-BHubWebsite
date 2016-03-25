@@ -270,7 +270,7 @@ catch(PDOException $e)
 
 
 
-
+<section class="container" id="content2">
 
 
 <form action="send.php" method="post">
@@ -303,9 +303,10 @@ NEWHTML;
             </td></tr>
 
 
+</table>
 
-
-
+</form>
+    </section>
 
 
 
