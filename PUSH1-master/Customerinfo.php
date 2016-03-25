@@ -190,7 +190,7 @@ try{
 
             <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="../../untitledcarousel/img/1.jpg" width="460" height="345">
+                <img src="push1-master/assets/abzbb1.jpg" width="460" height="345">
             </div>
 
             <div class="item">
