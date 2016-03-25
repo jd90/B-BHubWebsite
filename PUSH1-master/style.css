@@ -104,6 +104,16 @@ h1{
 .btnclear{
     background-color: #f1f0ee;
     border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666699;
+}
+.btnclear:hover{
+    background-color: #f1f0ee;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: orange;
 }
 .tablesearch {
     padding: 90px;
