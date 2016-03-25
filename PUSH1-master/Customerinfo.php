@@ -281,9 +281,11 @@ catch(PDOException $e)
 <form action="send.php" method="post">
 
     <table class="table6">
-
+<!--
         <tr><td class="small"><p>* Required Fields</p></td></tr>
-        <tr><td><label for ="room">Room *</label></td>
+
+        -->
+        <tr><td><label for ="room">Select a Room *</label></td>
             <td><select class="inputform" name="room" id="room">
                     <option value ="">Select Room</option>
                     <?php
@@ -338,14 +340,16 @@ NEWHTML;
 
         <table class="table6">
 
+
+
             <tr><td class="small"><p>* Required Fields</p></td></tr>
-
             <!--
-<tr><td><label for ="room">Room *</label></td>
-    <td><select class="inputform" name="room" id="room">
-            <option value ="">Select Room</option>
 
-            -->
+            <tr><td><label for ="room">Room *</label></td>
+                <td><select class="inputform" name="room" id="room">
+                        <option value ="">Select Room</option>
+
+                        -->
 
 <?php
 /*
