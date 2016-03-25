@@ -7,6 +7,13 @@ $email = $_POST['email'];
 $telephone = $_POST['telephone'];
 $roomname = $_POST['roomname'];
 $bb_email = $_POST['bb_email'];
+$bookingid = $_POST['bookingid'];
+$bbname = $_POST['bbname'];
+$bookingstartdate = $_POST['bookingstardate'];
+$bookingenddate = $_POST['bookingenddate'];
+$checkin = $_POST['checkin'];
+$checkout = _POST['checkout'];
+$cost = $_POST['cost'];
 
 require 'PHPMailerAutoload.php';
 $mail = new PHPMailer;
@@ -21,7 +28,16 @@ $mail->addAddress($email);
 $mail->addCC($bb_email);
 $mail->Subject = 'Booking Confirmation';
 //$mail->msgHTML(file_get_contents('contents.html'), dirname(testpro));
-$mail->Body = 'Room Name :'.$roomname."\n".'Name: '.$title.' '.$firstname.' '.$surname."\n".'Your Email: '.$email."\n".'Your telephone: '.$telephone;
+$mail->Body = 'Booking Reference: '.$bookingid."\n"
+    .'B&B Name: '.$bbname."\n"
+    .'Room Name :'.$roomname."\n"
+    .'Booking Dates: '.$bookingstartdate.' - '.$bookingenddate."\n"
+    .'Check-in: '.$checkin."\n"
+    .'check-out: '.$checkout."\n"
+    .'cost: '.$cost."\n"
+    .'Customer Name: '.$title.' '.$firstname.' '.$surname."\n"
+    .'Customer Email: '.$email."\n"
+    .'Customer Telephone: '.$telephone."\n";
 //$mail->addAttachment('');
 
 if (!$mail->send()) {
@@ -30,7 +46,13 @@ if (!$mail->send()) {
     echo "Welcome to the Booking Confirmation Page!!!<p>";
     echo "A confirmation email has been sent!<p>";
     echo "Here are your Booking details...<p>";
-    echo "Room Name :".$roomname."\n"."Name: ".$title." ".$firstname." ".$surname."\n"."Your Email: ".$email."\n"."Your telephone: ".$telephone;
+    echo "Booking Reference: ".$bookingid."<p>";
+    echo "B&B Name: ".$bbname."<p>";
+    echo "Room Name :".$roomname."<p>";
+    echo "Booking Dates: ".$bookingstartdate." - ".$bookingenddate;
+    echo "Customer Name: ".$title." ".$firstname." ".$surname."<p>";
+    echo "Customer Email: ".$email."<p>";
+    echo "Customer Telephone: ".$telephone."<p>";
     echo "<a href='customerinfo.php'>Return to the Booking Page</a>";
 }
 
