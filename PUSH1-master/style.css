@@ -154,6 +154,7 @@ ul {
 h4{
 
     font-size: 12px;
+    color:white;
 }
 
 h2{
@@ -366,7 +367,7 @@ main{
     -khtml-border-radius: 10px;
     border-radius: 10px;
 }
-
+/*
 #foot2{
     max-width: 1500px;
     background-image: url("assets/footer2.jpg");
@@ -381,7 +382,7 @@ main{
     border-radius: 10px;
 
 }
-
+*/
 #copyright{
 
     text-align: right;
