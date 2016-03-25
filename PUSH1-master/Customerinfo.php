@@ -331,7 +331,24 @@ catch(PDOException $e)
                 <td><label for="surname">Surname: *</label></td>
                 <td><input type="text" id="surname" class="inputform" name="surname" placeholder="Enter your Surname" size="20" maxlength="25" required /></td>
             </tr>
-            <tr><td>
+
+            <tr>
+                <td>
+                    <label for="email">Email: *</label></td>
+                <td><input type="text" id="email" class="inputform" name="email" placeholder="Enter your Email Address" size="20" maxlength="50" required /></td>
+            </tr>
+            <td>
+                <label for="telephone">Telephone: *</label></td>
+            <td><input type="text" id="telephone" class="inputform" name="telephone" placeholder="Enter your telephone number" size="20" maxlength="20" required /></td>
+            </tr>
+
+
+
+
+
+
+
+            <tr hidden><td>
                     <label for="owneremail">Owner Email:</label></td>
                 <td>
                         <?php
