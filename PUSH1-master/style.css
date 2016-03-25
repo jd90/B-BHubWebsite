@@ -162,6 +162,10 @@ h2{
     color: white;
 }
 
+h7{
+    color: orange;
+}
+
 .resultdisplay{
     float: left;
     border-style: solid;
