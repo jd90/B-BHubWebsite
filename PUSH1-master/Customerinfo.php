@@ -175,11 +175,11 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
+<td>
 
 
 
-
-    <td id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -214,7 +214,7 @@ try{
         </a>
 
 
-
+</div>
 
 
 </td>
