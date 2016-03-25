@@ -175,7 +175,7 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td width="600">
+<td>
 
 
 
