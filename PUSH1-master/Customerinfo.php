@@ -392,7 +392,7 @@ catch(PDOException $e)
                 </td>
             <td>
                     <label for="address">Address: *</label></td>
-                <td><input type="text" class="inputform" id="address" name="address" placeholder="Enter the first line of the Address" size="30" maxlength="50" required /></td>
+                <td><input type="text" class="inputform" id="address" name="address" placeholder="Enter the first line of your Address" size="30" maxlength="50" required /></td>
             </tr>
             <tr>
                 <td><label for="firstname">First Name: *</label></td>
@@ -407,7 +407,7 @@ catch(PDOException $e)
                 <td><input type="text" id="surname" class="inputform" name="surname" placeholder="Enter your Surname" size="20" maxlength="25" required /></td>
                 <td>
                     <label for="postcode">Postcode: *</label></td>
-                <td><input type="text" class="inputform" id="postcode" name="postcode" placeholder="Enter the Postcode" size="20" maxlength="8" required /></td>
+                <td><input type="text" class="inputform" id="postcode" name="postcode" placeholder="Enter your Postcode" size="20" maxlength="8" required /></td>
 
             </tr>
 
@@ -418,7 +418,7 @@ catch(PDOException $e)
 
             <td>
                     <label for="city">City: *</label></td>
-                <td><input type="text" class="inputform" id="city" name="city" placeholder="Enter City Name" size="20" maxlength="20" required /></td>
+                <td><input type="text" class="inputform" id="city" name="city" placeholder="Enter your City" size="20" maxlength="20" required /></td>
 
 
             </tr><tr>
