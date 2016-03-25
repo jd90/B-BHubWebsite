@@ -18,7 +18,7 @@ $mail->Username = "thebnbhub@outlook.com";
 $mail->Password = "Pedro123";
 $mail->setFrom('thebnbhub@outlook.com');
 $mail->addAddress($email);
-$mail->addCCAddress($bb_email);
+$mail->addCC($bb_email);
 $mail->Subject = 'Booking Confirmation';
 //$mail->msgHTML(file_get_contents('contents.html'), dirname(testpro));
 $mail->Body = 'Room Name :'.$roomname."\n".'Name: '.$title.' '.$firstname.' '.$surname."\n".'Your Email: '.$email."\n".'Your telephone: '.$telephone;
