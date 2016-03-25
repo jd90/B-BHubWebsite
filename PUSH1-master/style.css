@@ -1,4 +1,3 @@
-
 form {
 
     color: #666699;
@@ -11,7 +10,6 @@ h1{
     font-size: 30px;
     color: white;
 }
-
 .inputform
 {
     -moz-border-radius:5px;
@@ -21,7 +19,6 @@ h1{
     padding: 2px;
     margin-bottom: 10px;
 }
-
 .table1{
     border: 1px solid #666699;
     padding: 25px;
@@ -33,14 +30,11 @@ h1{
     color: #666699;
     margin: 0%;
 }
-
 .table2{
     font-family: 'Roboto', sans-serif;
     padding: 35px;
     color: white;
-
 }
-
 .table3{
     border: 1px solid #666699;
     padding: 25px;
@@ -50,13 +44,10 @@ h1{
     -khtml-border-radius: 10px;
     border-radius: 10px;
     color: #666699;
-/*    margin: 0%;   */
     margin-right: auto;
     margin-left: auto;
 }
-
 .table4{
-
     padding: 25px;
     background-color: snow;
     -moz-border-radius:10px;
@@ -64,11 +55,9 @@ h1{
     -khtml-border-radius: 10px;
     border-radius: 10px;
     color: #666699;
-/*    margin-left: 5%;  */
     margin-right: auto;
     margin-left: auto;
 }
-
 .table5{
     border: 1px solid orange;
     padding: 25px;
@@ -81,7 +70,6 @@ h1{
     margin-left: 2%;
     width: 700px;
 }
-
 .table6{
     border: 1px solid orange;
     padding: 25px;
@@ -95,24 +83,16 @@ h1{
     margin-right: auto;
     width: 960px;
 }
-
 #nodec{
-
     text-decoration: none;
 }
-
 .table5:HOVER{
-
     background-color: snow;
 }
-
 .tablejava td{
-
     padding-right: 75px;
 }
-
 #textlink{
-
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: orange;
@@ -121,7 +101,6 @@ h1{
     margin-bottom: 0;
     margin-top: 10px;
 }
-
 .tablesearch {
     padding: 90px;
     -moz-border-radius: 10px;
@@ -131,43 +110,36 @@ h1{
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-
 }
-
 input.submit {
     width: 5em;  height: 2em;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
 }
-
 #submit {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
     float: right;
-
 }
-
 h4{
-
     font-size: 14px;
     color:white;
 }
-
 h2{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
-
+h6{
+    color: black;
+}
 .resultdisplay{
     float: left;
     border-style: solid;
     border-color: #666699;
 }
-
 .loader {
     border: 16px solid #666699;
     border-radius: 50%;
@@ -178,34 +150,26 @@ h2{
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
-
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
 }
-
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
 .container{
-
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
-
 #banner{
-
     max-width: 1500px;
     background-color: snow;
     font-family: 'Roboto', sans-serif;
     height: 80px;
     color: #666699;
-
 }
-
 #navigation{
     max-width: 1500px;
     background-color: #666699;
@@ -215,7 +179,6 @@ h2{
     -khtml-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px;
 }
-
 #navigation2{
     max-width: 1500px;
     background-color: #666699;
@@ -225,7 +188,6 @@ h2{
     -khtml-border-radius: 10px;
     border-radius: 10px;
 }
-
 #content{
     max-width: 1500px;
     background-image: url("assets/banner2.jpg");
@@ -235,20 +197,13 @@ h2{
     -khtml-border-radius: 0px 0px 10px 10px;
     border-radius: 0px 0px 10px 10px;
 }
-
 button{
-
     float: right;
-
 }
-
 #content2{
-
     background-color: snow;
 }
-
 #content3{
-
     background-image: url("assets/wallpaper.jpg");
     -moz-border-radius: 0px 0px 10px 10px;
     -webkit-border-radius: 0px 0px 10px 10px;
@@ -256,16 +211,12 @@ button{
     border-radius: 0px 0px 10px 10px;
     height: 400px;
 }
-
 .floatleft {
     float: left;
 }
-
 .floatright{
     float: right;
 }
-
-
 main{
     max-width: 1500px;
     margin-right: auto;
@@ -283,14 +234,8 @@ main{
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-
-
-
 }
-
-
 #img2{
-
     height: 150px;
     border: 1px solid orange;
     -moz-border-radius:5px;
@@ -298,10 +243,7 @@ main{
     -khtml-border-radius: 5px;
     border-radius: 5px;
 }
-
 #img3{
-
-
     border: 1px solid orange;
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
@@ -310,9 +252,7 @@ main{
     width:200px;
     height:200px;
 }
-
 #imgthumb{
-
     border: 1px solid orange;
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
@@ -320,12 +260,8 @@ main{
     border-radius: 5px;
     width:50px;
     height:50px;
-
 }
-
 #img4{
-
-
     border: 1px solid orange;
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
@@ -334,27 +270,19 @@ main{
     width:300px;
     height:300px;
 }
-
-
 #spacer{
-
     height: 50px;
 }
-
 #featured{
-
     margin-top: 0;
     border-top: 1px double #666699;
 }
-
 .centre{
     color: #ffa500;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
-
 #foot{
-
     max-width: 1500px;
     background-image: url("assets/footerbg.jpg");
     font-family: 'Roboto', sans-serif;
@@ -367,27 +295,9 @@ main{
     -khtml-border-radius: 10px;
     border-radius: 10px;
 }
-/*
-#foot2{
-    max-width: 1500px;
-    background-image: url("assets/footer2.jpg");
-    font-family: 'Roboto', sans-serif;
-    font-size: 10PT;
-    color: white;
-    height: 125px;
-    padding: 25px;
-    -moz-border-radius:10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-
-}
-*/
 #copyright{
-
     text-align: right;
 }
-
 nav[role="main"] ul li a{
     display:inline-block;
     float: right;
@@ -395,7 +305,6 @@ nav[role="main"] ul li a{
     padding: 10px;
     text-decoration: none;
     color: white;
-
 }
 nav[role="sub"] ul li a{
     display: inline-block;
@@ -405,38 +314,28 @@ nav[role="sub"] ul li a{
     font-family: 'Roboto', sans-serif;
     padding: 10px;
 }
-
 nav[role="sub"] li a:HOVER{
-
     color: orange;
 }
-
 nav[role="sub2"] li a{
-
     text-decoration: none;
     color: orange;
     font-family: 'Roboto', sans-serif;
 }
-
 nav[role="sub2"] li a:HOVER{
-
     text-decoration: none;
     color: #666699;
 }
-
 nav[role="main"] li a:HOVER{
     background-color: snow;
     color: orange;
     padding: 10px;
     transition: 0.4s;
 }
-
 #img{
-
     height: 50px;
     margin-top: 10px;
 }
-
 body{
     background-color: snow;
     margin-top: 0;
@@ -458,7 +357,6 @@ body{
     border-radius: 10px;
     text-decoration: none;
 }
-
 .btn2:hover{
     border: 1px solid orange;
     color: orange;
@@ -615,11 +513,6 @@ div.panel.show {
 #searchbyregion{
     height: 200px;
 }
-
-
-
-
-
 .carousel{
     position:relative
 }
