@@ -134,6 +134,8 @@ h2{
 }
 h6{
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 .resultdisplay{
     float: left;
