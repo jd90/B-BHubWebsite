@@ -465,7 +465,7 @@ NEWHTML;
         </nav>
     </div>
     <div id="copyright">
-        <br><hr width="100%" size="1">
+        <p><hr width="100%" size="1"></p>
         <p>Copyright. Team D Solutions.</p>
     </div>
 
