@@ -302,7 +302,7 @@ NEWHTML;
 
                     <form action="searchResultsPage.php" method="POST">
                         <input hidden name="location" value='aberdeen'>
-                        <button class="btn" type="submit" >Search</button>
+                        <button class="btnclear" type="submit" >Aberdeen</button>
                     </form>
 
                 </td>

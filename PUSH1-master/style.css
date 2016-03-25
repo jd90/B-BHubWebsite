@@ -101,6 +101,9 @@ h1{
     margin-bottom: 0;
     margin-top: 10px;
 }
+.btnclear{
+    background-color: #f1f0ee;
+}
 .tablesearch {
     padding: 90px;
     -moz-border-radius: 10px;
