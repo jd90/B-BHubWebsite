@@ -203,7 +203,7 @@ try{
             </div>
 
             <div class="item">
-                <img src="push1-master/assets/aberdeen.jpg" width="460" height="345">
+                <img src="assets/aberdeen.jpg" width="460" height="345">
             </div>
         </div>
 
