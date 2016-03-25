@@ -103,6 +103,7 @@ h1{
 }
 .btnclear{
     background-color: #f1f0ee;
+    border: none;
 }
 .tablesearch {
     padding: 90px;
