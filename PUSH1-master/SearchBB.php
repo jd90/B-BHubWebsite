@@ -304,9 +304,18 @@ NEWHTML;
                         <button class="btnclear" type="submit" >Aberdeen</button>
                     </form>
                 </td>
-                <td>Edinburgh</td>
-                <td>London</td>
-                <td>Glasgow</td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='edinburgh'>
+                        <button class="btnclear" type="submit" >Edinburgh</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='london'>
+                        <button class="btnclear" type="submit" >London</button>
+                    </form></td>
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='glasgow'>
+                        <button class="btnclear" type="submit" >Glasgow</button>
+                    </form></td>
             </tr>
             <tr>
                 <td>Dundee</td>
