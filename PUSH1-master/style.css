@@ -110,6 +110,7 @@ h1{
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
+    color: black;
 }
 input.submit {
     width: 5em;  height: 2em;
@@ -131,11 +132,6 @@ h4{
 h2{
     font-family: 'Roboto', sans-serif;
     color: white;
-}
-h6{
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
 }
 .resultdisplay{
     float: left;
