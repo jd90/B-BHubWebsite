@@ -177,8 +177,9 @@ try{
 <tr>
 <td>
 
-
-
+<div class="container">
+    <p><h1>theB&Bhub picture carousel</h1></p>
+    <br>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
@@ -190,7 +191,7 @@ try{
 
             <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="push1-master/assets/abzbb1.jpg" width="460" height="345">
+                <img src="../../untitledcarousel/img/1.jpg" width="460" height="345">
             </div>
 
             <div class="item">
@@ -212,10 +213,8 @@ try{
         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
             <span class="sr-only"><img src="img/next3.png"></span>
         </a>
-
-
+    </div>
 </div>
-
 
 </td>
 <td>
