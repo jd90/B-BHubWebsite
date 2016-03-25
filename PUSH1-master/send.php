@@ -6,6 +6,7 @@ $surname = $_POST['surname'];
 $email = $_POST['email'];
 $telephone = $_POST['telephone'];
 $roomname = $_POST['roomname'];
+$owner_email = $_POST['owner_email'];
 
 require 'PHPMailerAutoload.php';
 $mail = new PHPMailer;
@@ -17,7 +18,7 @@ $mail->Username = "thebnbhub@outlook.com";
 $mail->Password = "Pedro123";
 $mail->setFrom('thebnbhub@outlook.com');
 $mail->addAddress($email);
-$mail->addCCAddress($email);
+$mail->addCCAddress($owner_email);
 $mail->Subject = 'Booking Confirmation';
 //$mail->msgHTML(file_get_contents('contents.html'), dirname(testpro));
 $mail->Body = 'Room Name :'.$roomname."\n".'Name: '.$title.' '.$firstname.' '.$surname."\n".'Your Email: '.$email."\n".'Your telephone: '.$telephone;

@@ -343,7 +343,7 @@ catch(PDOException $e)
                                 $newhtml =
                                     <<<NEWHTML
 
-                             <input type="text" name="owneremail" value="{$row[email]}" readonly>{$row[email]}</option>
+                             <input type="text" name="owneremail" value="{$row[owner_email]}" readonly>{$row[owner_email]}</option>
 NEWHTML;
                                 print($newhtml);
                             }
