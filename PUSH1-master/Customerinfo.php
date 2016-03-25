@@ -12,7 +12,8 @@ session_start();
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="bootstrap.min.css">
+
+
     <script src="jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
     <style>
@@ -22,6 +23,9 @@ session_start();
             margin: auto;
         }
     </style>
+
+
+
     <title>Booking: theB&Bhub</title>
 </head>
 <body>
