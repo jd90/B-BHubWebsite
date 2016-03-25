@@ -12,7 +12,7 @@ $bbname = $_POST['bbname'];
 $bookingstartdate = $_POST['bookingstardate'];
 $bookingenddate = $_POST['bookingenddate'];
 $checkin = $_POST['checkin'];
-$checkout = _POST['checkout'];
+$checkout = $_POST['checkout'];
 $cost = $_POST['cost'];
 
 require 'PHPMailerAutoload.php';
