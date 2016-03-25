@@ -177,9 +177,9 @@ try{
 <tr>
 <td>
 
-<div class="container">
-    <p><h1>theB&Bhub picture carousel</h1></p>
-    <br>
+
+
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
@@ -214,7 +214,7 @@ try{
             <span class="sr-only"><img src="img/next3.png"></span>
         </a>
     </div>
-</div>
+
 
 </td>
 <td>
