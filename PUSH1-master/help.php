@@ -116,9 +116,9 @@ session_start();
 
     <button class="accordion">&nbsp;&nbsp;&nbsp;Adding your Bed and Breakfast Name</button>
     <div class="panel">
-        <p>Enter the name of your bed and breakfast as you want it displayed on the site.<br>
-            This will be the name returned within the search results.</br>
-           <br> Maximum number of characters is 50.</br>
+        <p>Enter the name of your bed and breakfast as you want it displayed on the site.</p>
+            <p>This will be the name returned within the search results.</p>
+           <p> Maximum number of characters is 50.</p>
     </div>
 
     <button class="accordion">&nbsp;&nbsp;&nbsp;Address?</button>
