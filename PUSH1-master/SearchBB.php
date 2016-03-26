@@ -259,90 +259,62 @@ NEWHTML;
 
         <table border="0" class="tablejava">
             <tr>
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='london'>
+                        <input hidden name="region" value='london'>
                         <button class="btnclear" type="submit" >London</button>
                     </form></td>
-
                 <td><form action="searchResultsPage.php" method="POST">
                         <input hidden name="region" value='west midlands'>
                         <button class="btnclear" type="submit" >West Midlands</button>
                     </form></td>
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='east'>
+                        <input hidden name="region" value='east'>
                         <button class="btnclear" type="submit" >East</button>
                     </form></td>
-
-
-
-
-
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='wales'>
+                        <input hidden name="region" value='wales'>
                         <button class="btnclear" type="submit" >Wales</button>
                     </form></td>
             </tr>
             <tr>
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='south east'>
+                        <input hidden name="region" value='south east'>
                         <button class="btnclear" type="submit" >South East</button>
                     </form></td>
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='east midlands'>
+                        <input hidden name="region" value='east midlands'>
                         <button class="btnclear" type="submit" >East Midlands</button>
                     </form></td>
 
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='west'>
+                        <input hidden name="region" value='west'>
                         <button class="btnclear" type="submit" >West</button>
                     </form></td>
 
-
-
-
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='northern ireland'>
+                        <input hidden name="region" value='northern ireland'>
                         <button class="btnclear" type="submit" >Northern Ireland</button>
                     </form></td>
-
             </tr>
             <tr>
-
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='south west'>
+                        <input hidden name="region" value='south west'>
                         <button class="btnclear" type="submit" >South West</button>
                     </form></td>
-
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='yorkshire and the humber'>
+                        <input hidden name="region" value='yorkshire and the humber'>
                         <button class="btnclear" type="submit" >Yorkshire and the Humber</button>
                     </form></td>
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='north east'>
+                        <input hidden name="region" value='north east'>
                         <button class="btnclear" type="submit" >North East</button>
                     </form></td>
-
-
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='scotland'>
+                        <input hidden name="region" value='scotland'>
                         <button class="btnclear" type="submit" >Scotland</button>
                     </form></td>
             </tr>
-
         </table>
-
-
-
-
-
 
     </div>
 </div>
