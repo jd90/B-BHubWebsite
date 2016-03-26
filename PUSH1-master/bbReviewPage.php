@@ -137,7 +137,7 @@ session_start();
                    <td>{$row[city]}</td>
                     <td id="bbname">{$row[bbname]}</td>
                     <td>{$row[address]}</td>
-                    <td>{$row[email]}</td>
+                    <td>{$row[bbemail]}</td>
 
             </tr>
             <tr><td><a href="RoomRegistration.php?bbname={$row[bbname]}&bbid={$row[bbid]}"><input class="btn2" type="submit" value="Add Room to this BB"></input></a></td></tr>
