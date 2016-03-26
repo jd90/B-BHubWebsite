@@ -128,7 +128,7 @@ session_start();
         $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
         try{
-            $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbemail] = '$email'");
+            $st = $conn-> query("SELECT * FROM [B&B] WHERE [bb_email] = '$email'");
             foreach($st->fetchAll() as $row) {
                 $newhtml =
                     <<<NEWHTML
@@ -137,7 +137,7 @@ session_start();
                    <td>{$row[city]}</td>
                     <td id="bbname">{$row[bbname]}</td>
                     <td>{$row[address]}</td>
-                    <td>{$row[bbemail]}</td>
+                    <td>{$row[bb_email]}</td>
 
             </tr>
             <tr><td><a href="RoomRegistration.php?bbname={$row[bbname]}&bbid={$row[bbid]}"><input class="btn2" type="submit" value="Add Room to this BB"></input></a></td></tr>
