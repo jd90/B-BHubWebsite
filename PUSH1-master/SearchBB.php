@@ -266,7 +266,7 @@ NEWHTML;
                     </form></td>
 
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='west midlands'>
+                        <input hidden name="region" value='west midlands'>
                         <button class="btnclear" type="submit" >West Midlands</button>
                     </form></td>
 
