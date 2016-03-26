@@ -114,7 +114,7 @@ session_start();
 
 
             <?php
-            $bbemail = $_SESSION['user'];
+            $owner_email = $_SESSION['user'];
             if($_GET['bbid2'] != null ){
             $bbid = $_GET['bbid2'];}
             $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
