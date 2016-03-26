@@ -114,7 +114,7 @@ session_start();
 
 <section id="mycontainer">
 
-    <button class="accordion">&nbsp;&nbsp;Adding you bed and breakfast name</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Adding you bed and breakfast name</button>
     <div class="panel">
         <p>Enter the name of your bed and breakfast as you want it displayed on the site. This will be the name returned in the search results. Maximum number of characters is 50.</p>
     </div>
