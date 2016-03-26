@@ -155,6 +155,23 @@ session_start();
                     <td><input hidden id="ownerid" type="text" class="inputform" name="ownerid" value="<?php echo"".$_SESSION['ownerid'];?>" size="20" maxlength="10" readonly /></td>
                 </tr>
                 <tr>
+                    <td><label  for="region">Region: *</label></td>
+                    <td><select id="region" class="inputform" name="region">
+                            <option value="">Select Region</option>
+                            <option value="london">London</option>
+                            <option value="south east">South East</option>
+                            <option value="south west">South West</option>
+                            <option value="east midlands">East Midlands</option>
+                            <option value="west midlands">West Midlands</option>
+                            <option value="yorkshire and the humber">Yorkshire and the Humber</option>
+                            <option value="west">West</option>
+                            <option value="east">East</option>
+                            <option value="north east">North East</option>
+                            <option value="wales">Wales</option>
+                            <option value="scotland">Scotland</option>
+                            <option value="northern ireland">Northern Ireland</option>
+                       </select>
+                    </td>
                     <td><label for="region">Region: *</label></td>
                     <td><input id="region" type="text" class="inputform" name="region" placeholder="Enter Region" size="20" maxlength="30" required /></td>
                     <td><label for="longitude">Longitude: *</label></td>
