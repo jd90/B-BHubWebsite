@@ -116,14 +116,16 @@ session_start();
 
     <button class="accordion">&nbsp;&nbsp;&nbsp;Adding your Bed and Breakfast Name</button>
     <div class="panel">
-        <p>Enter the name of your bed and breakfast as you want it displayed on the site.</p>
-            <p>This will be the name returned within the search results.</p>
-           <p> Maximum number of characters is 50.</p>
+        <p>Enter the name of your Bed and Breakfast as you want it displayed on the site.</p>
+            <p>This will be the name that is returned within the search results.</p>
+           <p> You can use letters, numbers and special characters up to a maximum of 50 characters.</p>
     </div>
 
-    <button class="accordion">&nbsp;&nbsp;&nbsp;Address?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Adding the Address of your Bed and Breakfast</button>
     <div class="panel">
-        <p>Enter the address of your bed and breakfast including the city and postcode.  </div>
+        <p>Enter the address of your Bed and Breakfast.</p><p> Do NOT include the City and Postcode in the address field as these are seperate fields in the form.</p>
+    <p>There are two address line fields allowing up to 50 characters in each address field.</p>
+    </div>
 
     <button class="accordion">&nbsp;&nbsp;&nbsp;City?</button>
     <div class="panel">
