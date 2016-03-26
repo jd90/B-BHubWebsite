@@ -119,55 +119,55 @@ session_start();
         <p>Enter the name of your bed and breakfast as you want it displayed on the site. This will be the name returned in the search results. Maximum number of characters is 50.</p>
     </div>
 
-    <button class="accordion">Address?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Address?</button>
     <div class="panel">
         <p>Enter the address of your bed and breakfast including the city and postcode.  </div>
 
-    <button class="accordion">City?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;City?</button>
     <div class="panel">
         <p>Blah... Blah... Blah...</p>
     </div>
 
 
-    <button class="accordion">Telephone?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Telephone?</button>
     <div class="panel">
         <p>Blah... Blah... Blah...</p>
     </div>
 
 
-    <button class="accordion">Email?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Email?</button>
     <div class="panel">
         <p>Blah... Blah... Blah...</p>
     </div>
 
-    <button class="accordion">B&B Description?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;B&B Description?</button>
     <div class="panel">
         <p>Blah... Blah... Blah... </div>
 
 
-    <button class="accordion">Room Description?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Room Description?</button>
     <div class="panel">
         <p>Blah... Blah... Blah...</p>
     </div>
 
-    <button class="accordion">Check In Time</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Check In Time</button>
     <div class="panel">
         <p>Blah... Blah... Blah... </p></div>
 
 
-    <button class="accordion">Check Out Time?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Check Out Time?</button>
     <div class="panel">
         <p>Blah... Blah... Blah...</p>
     </div>
 
-    <button class="accordion">Upload Picture?</button>
+    <button class="accordion">&nbsp;&nbsp;&nbsp;Upload Picture?</button>
     <div class="panel">
         <p>Blah... Blah... Blah...</p> </div>
 
 
 
 
-    <button class="accordion lastaccordion">Pets Allowed?</button>
+    <button class="accordion lastaccordion">&nbsp;&nbsp;&nbsp;Pets Allowed?</button>
     <div id="foo" class="panel lastpanel">
         <p>Blah... Blah... Blah...</p>
     </div>
