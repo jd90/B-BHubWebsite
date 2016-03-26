@@ -259,18 +259,23 @@ NEWHTML;
 
         <table border="0" class="tablejava">
             <tr>
-                <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='east'>
-                        <button class="btnclear" type="submit" >East</button>
-                    </form></td>
-                <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='east midlands'>
-                        <button class="btnclear" type="submit" >East Midlands</button>
-                    </form></td>
+
                 <td><form action="searchResultsPage.php" method="POST">
                         <input hidden name="location" value='london'>
                         <button class="btnclear" type="submit" >London</button>
                     </form></td>
+
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='west midlands'>
+                        <button class="btnclear" type="submit" >West Midlands</button>
+                    </form></td>
+
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='east'>
+                        <button class="btnclear" type="submit" >East</button>
+                    </form></td>
+
+
 
 
 
@@ -281,6 +286,17 @@ NEWHTML;
                     </form></td>
             </tr>
             <tr>
+
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='south east'>
+                        <button class="btnclear" type="submit" >South East</button>
+                    </form></td>
+
+                <td><form action="searchResultsPage.php" method="POST">
+                        <input hidden name="location" value='east midlands'>
+                        <button class="btnclear" type="submit" >East Midlands</button>
+                    </form></td>
+
                 <td><form action="searchResultsPage.php" method="POST">
                         <input hidden name="location" value='west'>
                         <button class="btnclear" type="submit" >West</button>
@@ -288,14 +304,6 @@ NEWHTML;
 
 
 
-                <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='south east'>
-                        <button class="btnclear" type="submit" >South East</button>
-                    </form></td>
-                <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='south west'>
-                        <button class="btnclear" type="submit" >South West</button>
-                    </form></td>
 
 
                 <td><form action="searchResultsPage.php" method="POST">
@@ -306,10 +314,13 @@ NEWHTML;
             </tr>
             <tr>
 
+
                 <td><form action="searchResultsPage.php" method="POST">
-                        <input hidden name="location" value='west midlands'>
-                        <button class="btnclear" type="submit" >West Midlands</button>
+                        <input hidden name="location" value='south west'>
+                        <button class="btnclear" type="submit" >South West</button>
                     </form></td>
+
+
                 <td><form action="searchResultsPage.php" method="POST">
                         <input hidden name="location" value='yorkshire and the humber'>
                         <button class="btnclear" type="submit" >Yorkshire and the Humber</button>
