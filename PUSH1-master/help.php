@@ -168,13 +168,13 @@ session_start();
 
     <button class="accordion">&nbsp;&nbsp;&nbsp;Select a Check In Time</button>
     <div class="panel">
-        <p>Select the time guests are allowed to check-in from the dropdown provided.</p>
+        <p>Select the time guests are allowed to check-in from the dropdown menu provided.</p>
     </div>
 
 
     <button class="accordion">&nbsp;&nbsp;&nbsp;Select a Check Out Time</button>
     <div class="panel">
-        <p>Select the time guests have to check-out by from the dropdown provided.</p>
+        <p>Select the time guests have to check-out by from the dropdown menu provided.</p>
     </div>
 
     <button class="accordion">&nbsp;&nbsp;&nbsp;Upload Images of your Bed and Breakfast</button>
@@ -189,7 +189,7 @@ session_start();
     <button class="accordion lastaccordion">&nbsp;&nbsp;&nbsp;Stipulating your Bed and Breakfasts policy on Pets</button>
     <div id="foo" class="panel lastpanel">
         <p>Select whether or not your Bed and Breakfast allows guests to bring pets.</p>
-        <p>Simply select yes or no from the dropdown provided.</p>
+        <p>Simply select yes or no from the dropdown menu provided.</p>
     </div>
 
     <script>
