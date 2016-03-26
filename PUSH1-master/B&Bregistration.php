@@ -172,8 +172,6 @@ session_start();
                             <option value="northern ireland">Northern Ireland</option>
                        </select>
                     </td>
-                    <td><label for="region">Region: *</label></td>
-                    <td><input id="region" type="text" class="inputform" name="region" placeholder="Enter Region" size="20" maxlength="30" required /></td>
                     <td><label for="longitude">Longitude: *</label></td>
                     <td><input id="longitude" type="text" class="inputform" name="longitude" placeholder="Enter Longitude of B&B" size="20" maxlength="20" required /></td>
 
