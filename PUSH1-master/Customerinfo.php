@@ -232,7 +232,8 @@ NEWHTML;
                 <img src="{$row[imageurl]}" width="460" height="345">
             </div>
 
-NEWHTML;}
+NEWHTML;
+            }
         }
             $newhtml = $newhtml.
 <<<NEWHTML
