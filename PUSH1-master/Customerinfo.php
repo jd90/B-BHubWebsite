@@ -218,7 +218,9 @@ try{
         </a>
     </div>
 
-
+NEWHTML;
+        $newhtml = $newhtml.
+<<<NEWHTML
 </td>
 <td>
 <table border="0" cellpadding="5">
