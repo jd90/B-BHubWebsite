@@ -174,7 +174,7 @@ NEWHTML;
                     catch(PDOException $e)
                     {print"$e";}
                     ?>
-                        <div id="rmcal"></div>
+
 
 
 
