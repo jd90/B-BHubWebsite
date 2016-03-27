@@ -207,7 +207,7 @@ NEWHTML;
 
             <div class="item active">
                 <img src="{$row[imageurl]}" width="460" height="345">
-            </div
+            </div>
 
 NEWHTML;
         }
