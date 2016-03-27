@@ -173,23 +173,29 @@ try{
     $st = $conn-> query("SELECT * FROM [room] WHERE [bbid] = '$bbid'");
     foreach($st->fetchAll() as $row) {
 
-        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row[roomid]}'");
-        foreach($st->fetchAll() as $row) {echo "".$row[imageurl];}
         $newhtml =
-            <<<NEWHTML
-
-                        <div class="table6">
+<<<NEWHTML
+                                <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
 <td width="500">
-
-
-
-
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+NEWHTML;
 
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        $count = 0;
+        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row[roomid]}'");
+        $num_rows = mysql_num_rows("st");
+        echo"number of rows ".$num_rows;
+        foreach($st->fetchAll() as $row) {echo "".$row[imageurl];}
+        $newhtml = $newhtml.
+<<<NEWHTML
+<li data-target="#myCarousel" data-slide-to="{$count}" class="active"></li>
+NEWHTML;
+
+        $newhtml = $newhtml.
+<<<NEWHTML
+
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
