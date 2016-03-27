@@ -172,6 +172,8 @@ $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
     $st = $conn-> query("SELECT * FROM [room] WHERE [bbid] = '$bbid'");
     foreach($st->fetchAll() as $row) {
+
+        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '$row[roomid]'");
         $newhtml =
             <<<NEWHTML
 
