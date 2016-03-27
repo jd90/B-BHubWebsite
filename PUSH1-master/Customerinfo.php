@@ -185,39 +185,32 @@ NEWHTML;
 
         $count = 0;
         $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row[roomid]}'");
-        $num_rows = mysql_num_rows("st");
-        echo"number of rows ".$num_rows;
-        foreach($st->fetchAll() as $row) {echo "".$row[imageurl];}
-        $newhtml = $newhtml.
-<<<NEWHTML
-<li data-target="#myCarousel" data-slide-to="{$count}" class="active"></li>
+        foreach($st->fetchAll() as $row) {
+            $newhtml = $newhtml .
+                <<<NEWHTML
+                <li data-target="#myCarousel" data-slide-to="{$count}" class="active"></li>
 NEWHTML;
+        }
 
         $newhtml = $newhtml.
 <<<NEWHTML
+                    </ol>
 
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <div class="carousel-inner" role="listbox">
+NEWHTML;
+        foreach($st->fetchAll() as $row) {
+        $newhtml = $newhtml.
+<<<NEWHTML
         </ol>
 
             <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="assets/glasgow.jpg" width="460" height="345">
+                <img src="{$row[imageurl]}" width="460" height="345">
             </div>
 
-            <div class="item">
-                <img src="assets/london.jpg" width="460" height="345">
-            </div>
-
-            <div class="item">
-                <img src="assets/manchester.jpg" width="460" height="345">
-            </div>
-
-            <div class="item">
-                <img src="assets/aberdeen.jpg" width="460" height="345">
-            </div>
-        </div>
+NEWHTML;
+            $newhtml = $newhtml.
+<<<NEWHTML
 
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="sr-only"></span>
