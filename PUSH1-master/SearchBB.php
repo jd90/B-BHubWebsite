@@ -169,7 +169,11 @@ NEWHTML;
               </td>
             </tr>
 
+            <?php
 
+            echo "date('Y/m/d')";
+
+            ?>
 
             <tr>
                 <td colspan="2"><label for="dateday">Check In Date:</label></td>
