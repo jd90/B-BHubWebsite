@@ -261,8 +261,6 @@ main{
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-    width:200px;
-    height:200px;
 }
 #imgthumb{
     border: 1px solid orange;
