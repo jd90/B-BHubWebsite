@@ -194,14 +194,13 @@ NEWHTML;
 
         $newhtml = $newhtml.
 <<<NEWHTML
-                    </ol>
-
             <div class="carousel-inner" role="listbox">
+            </ol>
 NEWHTML;
         foreach($st->fetchAll() as $row) {
         $newhtml = $newhtml.
 <<<NEWHTML
-        </ol>
+
 
             <div class="carousel-inner" role="listbox">
             <div class="item active">
