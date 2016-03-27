@@ -171,7 +171,7 @@ $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Databa
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
     $st = $conn-> query("SELECT * FROM [room] WHERE [bbid] = '$bbid'");
-    foreach($st->fetchAll() as $row) {
+    foreach($st->fetchAll() as $row1) {
 
         $newhtml =
 <<<NEWHTML
@@ -254,22 +254,22 @@ NEWHTML;
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td width="25%"><strong>Room Name: </strong></td><td>{$row[roomname]}</td>
+<td width="25%"><strong>Room Name: </strong></td><td>{$row1[roomname]}</td>
 </tr>
 <tr>
-<td width="25%" valign="top"><strong>Room Description: </strong></td><td>{$row[roomdescription]}</td>
+<td width="25%" valign="top"><strong>Room Description: </strong></td><td>{$row1[roomdescription]}</td>
 </tr>
 <tr>
-<td width="25%"><strong>People room sleeps: </strong></td><td>{$row[numberofpeople]}</td>
+<td width="25%"><strong>People room sleeps: </strong></td><td>{$row1[numberofpeople]}</td>
 </tr>
 <tr>
-<td width="25%"><strong>Price per Night: </strong></td><td>£{$row[price]}</td>
+<td width="25%"><strong>Price per Night: </strong></td><td>£{$row1[price]}</td>
 </tr>
 <tr>
-<td width="25%"><strong>Room Type: </strong></td><td>{$row[roomtype]}</td>
+<td width="25%"><strong>Room Type: </strong></td><td>{$row1[roomtype]}</td>
 </tr>
 <tr>
-<td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
+<td width="25%"><strong>En-Suite: </strong></td><td>{$row1[ensuite]}</td>
 </tr>
 <tr>
 
