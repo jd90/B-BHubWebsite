@@ -92,8 +92,7 @@ session_start();
 
 <?php
 
-$bbname = $_POST['bbname'];
-
+$bbid = $_POST['bbid'];
 $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{

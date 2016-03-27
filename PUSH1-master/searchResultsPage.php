@@ -232,7 +232,7 @@ session_start();
                 $newhtml =
                     <<<NEWHTML
                         <div class="table5">
-<a href="Customerinfo.php?bbname={$row[bbname]}" id="nodec"><table border="0" cellpadding="5">
+<a href="Customerinfo.php?bbid={$row[bbid]}" id="nodec"><table border="0" cellpadding="5">
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
