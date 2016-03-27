@@ -190,7 +190,7 @@ NEWHTML;
                 <<<NEWHTML
                 <li data-target="#myCarousel" data-slide-to="{$count}"
 NEWHTML;
-            if(count == 0){
+            if($count == 0){
                 $newhtml = $newhtml .
 <<<NEWHTML
 class="active"></li>
