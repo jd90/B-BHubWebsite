@@ -177,7 +177,6 @@ NEWHTML;
                     <option value="month">Select Month:</option>
 
                     <tr>
-
                     <option value="1">January</option>
                     <option value="2">February</option>
                     <option value="3">March</option>
@@ -213,15 +212,6 @@ NEWHTML;
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                    </select>
-                </td>
-
-                <td><select id="month" class="inputform" name="month">
-                        <option value="month">Select Month:</option>
-                        <option value="1">January</option>
-                        <option value="2">February</option>
-                        <option value="3">March</option>
-                        <option value="4">April</option>
                     </select>
                 </td>
 
