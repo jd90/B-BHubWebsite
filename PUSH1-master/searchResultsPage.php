@@ -146,7 +146,7 @@ session_start();
     </div>
     <script>
         function logout() {
-            window.location = "SearchBB.php";
+            window.location = "SearchBB.php?value=logout";
         }
     </script>
 </section>
@@ -232,7 +232,7 @@ session_start();
                 $newhtml =
                     <<<NEWHTML
                         <div class="table5">
-<a href="Customerinfo.php" id="nodec"><table border="0" cellpadding="5">
+<a href="Customerinfo.php?bbname={$row[bbname]}" id="nodec"><table border="0" cellpadding="5">
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
