@@ -208,6 +208,7 @@ NEWHTML;
             </div>
 
 NEWHTML;
+        }
             $newhtml = $newhtml.
 <<<NEWHTML
 
