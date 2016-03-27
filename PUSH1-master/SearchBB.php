@@ -164,6 +164,16 @@ NEWHTML;
                     catch(PDOException $e)
                     {print"$e";}
                     ?>
+                        <div id="rmcal"></div>
+
+<script>
+                        jQuery(function() {
+                        jQuery( "#rmcal" ).datepicker( { dateFormat: "yy-mm-dd", minDate: 0, maxDate: +21, onSelect: function(date) { day(); } } );
+                        day();
+                        }); hit('4413','room','r');
+
+                        (function(b){b.fn.animate_from_to=function(d,c){return this.each(function(){a(this,d,c)})};b.extend({animate_from_to:a});function a(d,i,l){var c=b(d).eq(0),h=b(i).eq(0);var f={pixels_per_second:1000,initial_css:{background:"#dddddd",opacity:0.8,position:"absolute",top:c.offset().top,left:c.offset().left,height:c.height(),width:c.width(),"z-index":100000},callback:function(){return}};if(l&&l.initial_css){l.initial_css=b.extend({},f.initial_css,l.initial_css)}l=b.extend({},f,l);var k=c.offset().top+c.width()/2-h.offset().top,m=c.offset().left+c.height()/2-h.offset().left,g=Math.floor(Math.sqrt(Math.pow(m,2)+Math.pow(k,2))),e=(g/l.pixels_per_second)*1000,j=b("<div></div>").css(l.initial_css).appendTo("body").animate({top:h.offset().top,left:h.offset().left,height:h.innerHeight(),width:h.innerWidth()},{duration:e}).animate({opacity:0},{duration:100,complete:function(){j.remove();return l.callback()}})}})(jQuery);
+                        </script>
 
                 </select>
               </td>
@@ -204,7 +214,6 @@ NEWHTML;
                         <option value="4">4</option>
                     </select>
                 </td>
-
                 <td><select id="month" class="inputform" name="month">
                         <option value="month">Select Month:</option>
                         <option value="1">January</option>
