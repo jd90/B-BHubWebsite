@@ -184,7 +184,7 @@ try{
 NEWHTML;
 
         $count = 0;
-        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row[roomid]}'");
+        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row1[roomid]}'");
         foreach($st->fetchAll() as $row) {
             $newhtml = $newhtml .
                 <<<NEWHTML
