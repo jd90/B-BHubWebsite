@@ -92,12 +92,12 @@ session_start();
 
 <?php
 
-$bbid = $_POST['bbid'];
+$bbid = $_GET['bbid'];
 $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
     $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbid] = '$bbid'");
-    foreach($st->fetchAll() as $row) {echo"$bbid";
+    foreach($st->fetchAll() as $row) {
         $newhtml =
             <<<NEWHTML
 
