@@ -210,8 +210,11 @@ NEWHTML;
             <div class="carousel-inner" role="listbox">
 
 NEWHTML;
+        $count=0;
         $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row[roomid]}'");
         foreach($st->fetchAll() as $row) {
+
+            if($count==0){
         $newhtml = $newhtml.
 <<<NEWHTML
 
@@ -221,6 +224,15 @@ NEWHTML;
             </div>
 
 NEWHTML;
+            }else{$newhtml = $newhtml.
+                <<<NEWHTML
+
+
+            <div class="item">
+                <img src="{$row[imageurl]}" width="460" height="345">
+            </div>
+
+NEWHTML;}
         }
             $newhtml = $newhtml.
 <<<NEWHTML
