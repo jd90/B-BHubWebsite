@@ -16,7 +16,7 @@ session_start();
 </head>
 <body>
 
-<section class="container" id="banner">
+        <section class="container" id="banner">
     <div class="floatleft">
         <img src = "assets/bnblogocroporange.png" id="img">
     </div>
