@@ -224,9 +224,9 @@ NEWHTML;
             </div>
 
 NEWHTML;
-            }else{$newhtml = $newhtml.
-                <<<NEWHTML
-
+            }else{
+                $newhtml = $newhtml.
+<<<NEWHTML
 
             <div class="item">
                 <img src="{$row[imageurl]}" width="460" height="345">
