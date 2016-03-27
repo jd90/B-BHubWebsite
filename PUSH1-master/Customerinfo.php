@@ -197,6 +197,7 @@ NEWHTML;
             <div class="carousel-inner" role="listbox">
             </ol>
 NEWHTML;
+        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row[roomid]}'");
         foreach($st->fetchAll() as $row) {
         $newhtml = $newhtml.
 <<<NEWHTML
