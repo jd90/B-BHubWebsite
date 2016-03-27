@@ -187,24 +187,16 @@ NEWHTML;
             <tr>
                 <td colspan="2"><label for="datein">Check In Date:</label></td>
                 <td colspan="2"><label for="dateout">Check Out Date:</label></td>
-                </tr>
+            </tr>
+
             <tr>
-
-
                 <td>
                     <p>Date: <input type="text" id="datein"></p>
                 </td>
-
-
-
                 <td>
                     <p>Date: <input type="text" id="dateout"></p>
                 </td>
-
-
-
             </tr>
-
 
            <tr>
                <td colspan="4">
