@@ -205,16 +205,15 @@ NEWHTML;
 <<<NEWHTML
 
 
-            <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="{$row[imageurl]}" width="460" height="345">
-            </div>
+
 
 NEWHTML;
         }
             $newhtml = $newhtml.
 <<<NEWHTML
-
+ </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="sr-only"></span>
         </a>
