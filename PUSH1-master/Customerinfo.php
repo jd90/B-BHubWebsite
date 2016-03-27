@@ -97,7 +97,7 @@ $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Databa
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
     $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbid] = '$bbid'");
-    foreach($st->fetchAll() as $row) {
+    foreach($st->fetchAll() as $row) {echo"$bbid";
         $newhtml =
             <<<NEWHTML
 
