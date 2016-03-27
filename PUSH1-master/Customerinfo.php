@@ -234,6 +234,7 @@ NEWHTML;
 
 NEWHTML;
             }
+            $count++;
         }
             $newhtml = $newhtml.
 <<<NEWHTML
