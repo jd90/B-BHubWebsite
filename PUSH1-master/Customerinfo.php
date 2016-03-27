@@ -166,7 +166,7 @@ catch(PDOException $e)
 
 
 <?php
-$bbid = $_POST['bbid'];
+$bbid = $_GET['bbid'];
 $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
