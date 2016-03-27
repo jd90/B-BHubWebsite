@@ -193,7 +193,7 @@ NEWHTML;
             if($count == 0){
                 $newhtml = $newhtml .
 <<<NEWHTML
-class="active"></li>
+ class="active"></li>
 NEWHTML;
                 }else{
                  $newhtml = $newhtml .
