@@ -188,8 +188,19 @@ NEWHTML;
         foreach($st->fetchAll() as $row) {
             $newhtml = $newhtml .
                 <<<NEWHTML
-                <li data-target="#myCarousel" data-slide-to="{$count}" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="{$count}"
 NEWHTML;
+            if(count == 0){
+                $newhtml = $newhtml .
+<<<NEWHTML
+class="active"></li>
+NEWHTML;
+                }else{
+                 $newhtml = $newhtml .
+<<<NEWHTML
+></li>
+NEWHTML;
+            }
             $count++;
         }
 
