@@ -173,7 +173,8 @@ try{
     $st = $conn-> query("SELECT * FROM [room] WHERE [bbid] = '$bbid'");
     foreach($st->fetchAll() as $row) {
 
-        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '$row[roomid]'");
+        $st = $conn-> query("SELECT * FROM [images] WHERE [roomid] = '{$row[roomid]}'");
+        foreach($st->fetchAll() as $row) {echo "".$row[imageurl];}
         $newhtml =
             <<<NEWHTML
 
